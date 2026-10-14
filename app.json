@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Brote-GECB",
-    "slug": "brote-planificador",
+    "slug": "Brote-GECB",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,10 @@
     "backgroundColor": "#F8F5ED",
     "ios": {
       "bundleIdentifier": "edu.uets.brote.demo",
-      "icon": "./assets/images/icon.png"
+      "icon": "./assets/images/icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "edu.uets.brote.demo",
@@ -48,7 +51,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "e6d71ee4-7328-4b93-9330-977e02350f6b"
+        "projectId": "e494c435-cda4-4bbb-93d3-1f77c9305ba2"
       }
     },
     "owner": "callegabriel"
