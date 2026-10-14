@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Brote",
+    "name": "Brote-GECB",
     "slug": "brote-planificador",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -46,7 +46,11 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "e6d71ee4-7328-4b93-9330-977e02350f6b"
+      }
+    },
+    "owner": "callegabriel"
   }
 }
